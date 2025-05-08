@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:latihan_flutter1/baris_kolom.dart';
 import 'package:latihan_flutter1/column_widget.dart';
+import 'package:latihan_flutter1/contoh_stateful.dart';
 import 'package:latihan_flutter1/halaman_pertama.dart';
 import 'package:latihan_flutter1/hello_world.dart';
 import 'package:latihan_flutter1/parsing.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Latihan Flutter',
-      home: Parsing(),
+      home: HelloWorld(),
     );
   }
 }
