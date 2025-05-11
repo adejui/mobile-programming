@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_flutter1/ganti_warna_latar.dart';
+import 'package:latihan_flutter1/matakuliah_form.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Latihan Flutter',
-      home: GantiWarnaLatar(),
+      home: MataKuliahForm(),
     );
   }
 }
